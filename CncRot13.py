@@ -10,4 +10,5 @@ def rot13(ch):
   return ch
 
 class CncRot13Command(CncTransformer):
+  title = "Rot 13"
   transformer = lambda s: "".join([rot13(ch) for ch in s]),
