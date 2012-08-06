@@ -1,7 +1,13 @@
 [
   {
     "caption": "Codes'n'Ciphers: Alphabet (A=1,Z=26)",
-    "command": "cnc_alphabet"
+    "command": "cnc_alphabet",
+    "args": { "method": "a1z26" }
+  },
+  {
+    "caption": "Codes'n'Ciphers: Alphabet (A=26,Z=1)",
+    "command": "cnc_alphabet",
+    "args": { "method": "a26z1" }
   },
   {
     "caption": "Codes'n'Ciphers: ROT13",
