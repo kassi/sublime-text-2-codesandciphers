@@ -4,7 +4,6 @@ import sublime, sublime_plugin
 class CncTransformer(sublime_plugin.TextCommand):
   def run(self, edit):
     self.settings = sublime.load_settings("CodesAndCiphers.sublime-settings")
-    print self.settings
     self.transform(self.transformer[0], self.view, edit)
 
   def transform(self, f, view, edit):
@@ -34,4 +33,4 @@ class CncTransformer(sublime_plugin.TextCommand):
         view.replace(edit, s, txt)
 
   def header(self):
-    return "\n¨>> "+self.title+":\n"
+    return "\n>> "+self.title+":\n"
