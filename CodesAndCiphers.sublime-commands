@@ -10,6 +10,10 @@
     "args": { "method": "a26z1" }
   },
   {
+    "caption": "Codes'n'Ciphers: Leetspeak Decoder",
+    "command": "cnc_leetspeak"
+  },
+  {
     "caption": "Codes'n'Ciphers: ROT13",
     "command": "cnc_rot13"
   }
