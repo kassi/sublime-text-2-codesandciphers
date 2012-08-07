@@ -14,6 +14,10 @@
     "command": "cnc_leetspeak"
   },
   {
+    "caption": "Codes'n'Ciphers: ROT 1-26",
+    "command": "cnc_rot"
+  },
+  {
     "caption": "Codes'n'Ciphers: ROT13",
     "command": "cnc_rot13"
   }
