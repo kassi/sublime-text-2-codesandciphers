@@ -20,5 +20,13 @@
   {
     "caption": "Codes'n'Ciphers: ROT13",
     "command": "cnc_rot13"
+  },
+  {
+    "caption": "Codes'n'Ciphers: URI Escape",
+    "command": "cnc_uri_escape"
+  },
+  {
+    "caption": "Codes'n'Ciphers: URI Unescape",
+    "command": "cnc_uri_unescape"
   }
 ]
